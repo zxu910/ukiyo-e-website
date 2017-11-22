@@ -1,0 +1,194 @@
+
+
+@import url(//fonts.googleapis.com/earlyaccess/kokoro.css);
+/* 整體區塊str */
+     *{
+
+        border:0;
+        padding:0;
+        margin:0;
+     }
+
+     body{
+
+      background:url(img/background01.png);
+     }
+
+
+    #start{
+
+      background: #fff ;
+      width:100%;
+      height:100%;
+      z-index:300;
+      position: absolute;
+      top:0;
+      left:0;
+    }
+
+  
+/* 整體區塊end */
+
+
+ /* 主體區塊str */
+
+  /* 簡介 str */
+
+
+         /* 上方圖片str */
+
+         #rwd-hamberger{
+
+          width:40px;
+          height:40px;
+          position: fixed;
+          left:20px;
+          top:30px;
+          background:url(img/rwd-hamberger.png) ;
+          background-size:cover; 
+          display:none;
+         }
+
+         #rwd-hamberger:hover{
+
+          cursor:pointer;
+         }
+
+         #top-slider{
+
+          margin:0 auto;
+          margin-top:200px;
+          width:100%;
+          height:680px;
+        
+        
+         }
+      
+    
+     
+          /* 上方圖片end */
+
+     
+       /* 右方簡介str */
+      #main-container{
+        width:600px;
+        background: rgb(189, 11, 11);
+        height:600px;
+        border-radius: 99em;
+        position: fixed;
+        right:5%;
+        top:20%;
+        opacity: 0.98;
+        z-index:1;
+  
+      }
+
+   
+       #main-container p{
+       padding : 5% 32%;
+       margin-top:10px;
+       width:50%;
+       color:#fff;
+       font-size:17pt;
+       position:absolute;
+       writing-mode: vertical-lr;
+       font-family: 'Kokoro', serif;
+    
+       
+
+       } 
+
+      
+
+       span{
+
+        font-size:30pt;
+        color:#000;
+ 
+       
+
+       }
+
+
+
+ /* 主體區塊end */
+
+
+
+/* -------------主體區塊---------- */
+
+
+/* rwd 1320px str */
+
+@media screen and (max-width:1320px){
+
+
+  #main-container{
+
+    width:100%;
+    height:300px;
+    border-radius:0;
+    margin:55% 0 0 0;
+    padding:0;
+
+  }
+
+  #main-container p{
+
+    margin-left:-100px;
+  }
+
+  
+}
+
+/* rwd 1320px end */
+
+/* rwd 650px str */
+@media screen and (max-width:650px){
+
+
+  body{
+
+    border:0;
+    padding:0;
+    margin:0;
+  }
+
+  #rwd-hamberger{
+
+  display:block;
+
+
+  }
+
+    #main-container{
+  
+      width:100%;
+      height:300px;
+      border-radius:0;
+      margin:76% 0 0 0;
+      margin-right:-20px;
+      padding:0;
+     
+  
+    }
+
+    #main-container p,  #main-container span{
+
+      font-size:4.2vw;
+      color:#fff;
+     margin:0 auto;
+     margin-left:-25%;
+   
+    height:185px;
+    }
+
+  /* rwd 650px end */
+  
+
+
+
+
+
+
+

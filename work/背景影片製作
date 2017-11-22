@@ -1,0 +1,43 @@
+使用YTPlayer 套件
+
+
+
+1.複製video資料夾 (裡面必須包含 jquery.mb.YTPlayer.js   jquery.mb.YTPlayer.min.css  jquery.mb.YTPlayer.min.js 這三個檔案 )
+
+
+2.
+    複製以下放到<head>
+    
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="video/jquery.mb.YTPlayer.js"></script>
+    <link rel="stylesheet" href="video/jquery.mb.YTPlayer.min.css" />
+
+
+3.於<body>中增加以下div
+
+  <div id="bgVideo" data-property="{
+  videoURL: 'https://www.youtube.com/watch?v=tq75nkjL6a8', (可更改為想放置的url)
+  mute: true,
+  showControls: false
+}">影片檔案</div>
+
+
+
+4. 於jquery上增加語法
+
+  $(document).ready(function(){
+  $("#bgVideo").YTPlayer();
+});
+
+
+5. CDN(使用3.1.2版本)
+    <script src="video/jquery.mb.YTPlayer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.1.2/jquery.mb.YTPlayer.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.1.2/css/jquery.mb.YTPlayer.min.css" />
+
+
+
+
+查看更多資訊連上此 https://tech.jastin.net/jquery-mb-ytplayer/
+     
+                https://cdnjs.com/libraries/jquery.mb.YTPlayer

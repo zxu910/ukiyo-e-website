@@ -1,0 +1,670 @@
+@import url(//fonts.googleapis.com/earlyaccess/kokoro.css);
+@import url(//fonts.googleapis.com/earlyaccess/cwtexming.css);
+/* 整體設定str */
+
+
+
+
+        *{
+
+            padding:0;
+            border:0;
+            margin:0;
+            
+        
+
+        }
+
+        body{
+
+            background:url(img/background01.png);
+     
+
+}
+
+
+/* 整體設定 end */
+
+/* 主要區塊str  */
+
+    /* 引言區塊  str */
+        #introduction{
+            
+           
+            height:839px;
+            background:url(img/history/introduction-pic.png) center no-repeat;
+            background-size:  cover;
+            z-index:-200;
+  
+        }
+
+ 
+          /* 引言連結區塊str */
+            #nav-href{
+
+                width:155px;
+                top:30%;
+                color:rgb(136, 30, 30);
+                font-size:15pt;
+                position:fixed;
+                background:rgb(151, 18, 18);
+                z-index:300;
+                
+            }
+
+            #nav-href a{
+                line-height:50px;
+                width:94%;
+                float:left;
+                padding:3%;
+                text-align:center;
+                color:#fff;
+                text-decoration: none;
+            }
+
+            #nav-href a:hover{
+                
+                
+                    transition: 0.8s ease-in-out;
+                    background:rgb(90, 17, 17);
+                    cursor:pointer;
+                }
+
+         
+     
+
+                  /* 引言連結區塊end */
+
+         /* 引言區塊 end */
+
+         
+        /* 主體區塊str */
+         #main-area{
+
+            margin-top:1000px;
+          
+
+
+         }
+   
+        #main-area h1{
+
+            text-align:center;
+           
+        }
+
+        #main-area p{
+
+         margin: 3%20%;  
+           
+        }
+
+    
+      
+        #topic1,  #topic2, #topic3,  #topic4{
+
+
+            width:1200px;
+            height:1000px;
+            background: #fff;
+            margin:0 auto;
+            margin-bottom:200px;
+            font-size:15pt;
+          
+    
+        }
+
+        #topic-part1,  #topic-part2,  #topic-part3,  #topic-part4{
+
+            margin-top:100px;
+            font-family: 'Kokoro', serif;
+        }
+
+        article{
+
+            width:150px;
+            height:150px;
+            background: rgb(151, 18, 18);
+            margin:0 0 0 43%;
+            border-radius:99em;
+            
+         
+     
+        }
+
+        article h1{
+
+            font-size:50pt;
+            color:rgb(0, 0, 0);
+            text-align:center;
+            line-height:80px;
+           
+ 
+        }
+
+
+         /* 主體區塊end */
+     
+
+
+         
+
+
+          
+         /* 發展緣由 str */
+
+         #topic1{
+
+            margin-top:-1000px;
+         }
+
+         .topic1-1{
+
+            width:17.4%;
+            margin-left:250px;
+            margin-top:10px;
+         }
+
+         .topic1-2{
+
+            width:40%;
+            margin-top:10px;
+         }
+
+         .topic1-1-notes{
+            
+            margin-left:250px;
+            font-size:13pt;
+            margin-top:-30px;
+        }
+
+        .topic1-2-notes{
+
+            margin-left:470px;
+            font-size:13pt;
+            margin-top:-50px;
+            
+        }
+
+
+         
+
+          /* 發展緣由 end */
+
+          /* 畫風演變  str*/
+
+          #topic2{
+    
+            height:1230px;
+                }
+
+
+          .topic2-1{
+
+            width:60%;
+            margin-left:20%;
+            margin-top:10px;
+          }
+
+          .topic2-notes{
+
+            margin-top:-20px;
+            font-size:13pt;
+            
+          }
+
+          /* 畫風演變 end */
+
+
+          /* 後期變革  str */
+
+          #topic3{
+
+
+            height:1150px
+
+
+          }
+
+          .topic3{
+
+            width:60%;
+            margin-left:20%;
+            margin-top:10px;
+          }
+
+          .topic3-notes{
+            
+            margin-top:-20px;
+            margin-left:0px;
+            font-size:13pt;
+            
+            }
+
+
+
+         /* 後期變革  end */
+
+
+
+
+         #topic4{
+
+
+            height:900px;
+
+
+         }
+
+         .topic4-1{
+            
+        width:30%;
+        margin-left:250px;
+        margin-top:30px;
+        }
+
+        .topic4-2{
+
+        width:27.5%;
+        margin-top:30px;
+       
+        }
+
+        .topic4{
+
+            font-size:13pt;
+        }
+
+        .topic4-notes{
+
+
+            font-size:13pt;
+            margin-top:-20px;
+
+
+        }
+
+        .topic4-notes-650-rwd{
+
+            display:none;
+        }
+
+
+/*-------------------- rwd------------------------- */
+
+
+        /* rwd 1320px str*/
+
+        @media screen and (max-width:1320px){
+
+
+            #introduction{
+
+                height:500px;
+            }
+
+            #nav-href{
+
+                width:120px;
+            }
+
+            #topic1,  #topic2, #topic3,  #topic4{
+                
+                
+                            width:800px;
+                            height:1000px;
+                            background: #fff;
+                            margin:0 auto;
+                            margin-bottom:200px;
+                            font-size:15pt;
+                          
+                    
+                        }
+
+            #main-area{
+                
+            margin-top:100px;
+            
+
+
+            }
+
+            #main-area p{
+                
+            margin:0 auto;
+          
+            font-size:14pt;
+            width:500px;
+            
+        }
+
+        article{
+
+            margin-left:300px;
+        }
+
+
+        /* topic1 rwd 1320px str */
+
+            .topic1-1{
+                
+                width:18.4%;
+                margin-left:150px;
+                margin-top:50px;
+                }
+
+            .topic1-2{
+
+            width:42%;
+            margin-top:10px;
+            }
+
+            .topic1-1-notes{
+
+                margin-left:150px;
+                font-size:12pt;
+                margin-top:0px;
+            }
+
+            .topic1-2-notes{
+
+                margin-left:300px;
+                font-size:12pt;
+                margin-top:-45px;
+               
+            }
+
+        
+        /* topic1 rwd 1320px end */
+
+
+        /* topic2 rwd 1320px str */
+
+
+            #topic2{
+                
+                height:1270px;
+                    }
+
+            .topic2-1{
+
+                margin-top:50px;
+
+            }
+
+             .topic2-notes{
+
+                margin-top:0px;
+                margin-left:-60px;
+                font-size:12pt;
+            }
+         
+        /* topic2 rwd 1320px end */   
+
+
+        /* topic3 rwd 1320px str */
+
+
+            #topic3{
+
+                margin-top:50px;
+                height:1100px;
+            }
+
+            .topic3{
+
+                margin-top:50px;
+            }
+
+            .topic3-notes{
+
+
+                font-size:12pt;
+                margin-left:-60px;
+                margin-top:10px;
+
+
+            }
+
+
+        /* topic3 rwd 1320px end */
+
+
+
+
+        /* topic4rwd 1320px str */
+    
+            .topic4-1{
+
+                margin-left:150px;
+                width:33%;
+            }
+
+            .topic4-2{
+
+                width:30%;
+
+
+            }
+
+            .topic4-notes{
+
+                margin-top:30px;
+                margin-left:-90px;
+                font-size:12pt;
+            }
+
+              
+          /* topic4 rwd 1320px end */
+        
+
+        }
+
+          /* rwd 1320px end*/
+
+
+
+
+
+    /* rwd 650px  str */
+
+    @media screen and (max-width:650px){
+
+
+        #topic1, #topic2, #topic3,  #topic4{
+            
+
+            width:350px;
+            height:1000px;
+            background: #fff;
+            margin:0 auto;
+            margin-bottom:200px;
+            font-size:13pt;
+         
+                    }
+            
+            #introduction{
+                
+             height:300px;
+
+            }
+
+
+
+        #topic-part1 p,  #topic-part2 p,  #topic-part3 p,  #topic-part4 p{
+            
+            
+          font-size:12pt;
+          width:320px;
+          margin:0 auto;
+
+        }
+            
+        #nav-href{
+
+            display:none;
+        }
+
+        article{
+
+            margin-left:110px;
+            width:120px;
+            height:120px;
+        }
+
+        article h1{
+
+          
+           font-size:35pt;
+          
+           line-height:60px;
+          
+        }
+
+        /* topic1 rwd 650px str */
+
+        #topic1{
+            
+            margin-top:-200px;
+            height:1300px;
+
+        }   
+        
+
+        .topic1-1{
+            
+            width:200px;
+            margin-left:70px;
+            margin-top:50px;
+            }
+
+        .topic1-2{
+
+        width:320px;
+        margin-top:60px;
+        margin-left:15px;
+      
+        }
+
+        .topic1-1-notes{
+
+            margin-left:65px;
+            font-size:12pt;
+            margin-top:-300px;
+           
+        }
+
+        .topic1-2-notes{
+
+            margin-left:20px;
+            font-size:12pt;
+            margin-top:260px;
+           
+        }
+
+          /* topic1 rwd 650px end */
+
+        /* topic2 rwd 650px str */
+
+        #topic2{
+            
+            height:1100px;
+                }
+
+
+        .topic2-1{
+
+
+            width:320px;
+            margin-top:50px;
+            margin-left:15px;
+
+        }
+
+        .topic2-notes{
+
+           
+            font-size:12pt;
+            margin-left:-200px;
+            
+            }
+
+
+
+
+        
+        /* topic2 rwd 650px end */
+
+        /* topic3 rwd 650px str */
+
+        
+        #topic3{
+            
+            height:950px;
+                }
+
+        .topic3{
+
+            width:300px;
+            margin-left:25px;
+        }
+
+        .topic3-notes{
+            
+        
+        font-size:12pt;
+        margin-left:-200px;
+        
+        }
+            
+
+
+        /* topic3 rwd 650px end */
+
+
+        /* topic4 rwd 650px str */
+
+        
+
+         #topic4{
+
+          height:1100px;
+         }
+        .topic4-1{
+            
+            
+                width:300px;
+                margin-top:50px;
+                margin-left:25px;
+    
+            }
+
+        .topic4-2{
+            
+            
+                width:300px;
+                margin-top:20px;
+                margin-left:25px;
+    
+            }
+
+           .topic4-notes{
+
+            display:none;       
+           }
+
+          .topic4-notes-650-rwd{
+
+            display:block;
+            font-size:11pt;
+            margin-left:-190px;
+          }
+
+        /* topic4 rwd 650px end */
+
+ 
+    }
+
+     /* rwd 650px  end */
+
+   

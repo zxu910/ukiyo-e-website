@@ -1,0 +1,850 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/kokoro.css);
+/* 整體設定str */
+
+
+        *{
+
+            padding:0;
+            border:0;
+            margin:0;
+            
+        
+
+        }
+
+        body{
+
+           background:url(img/background01.png);
+         
+         
+           
+
+         
+           /* background:rgb(199, 31, 31); */
+
+   
+}
+
+/* 整體設定 end */
+
+/* 主要區塊str  */
+
+    /* 引言區塊  str */
+        #introduction{
+            
+          
+            height:839px;
+            background:url("img/production/introduction-pic2.jpg") center;
+            background-size:cover;
+            margin:0 auto;
+          
+            z-index:-200;
+         
+      
+        }
+
+
+
+        /* #introduction pre{
+            width:20%;
+            writing-mode:vertical-lr;
+            margin-left:85%;
+            margin-top:-700px;
+            font-size:18pt;
+         
+        } */
+
+
+
+          /* 引言連結區塊str */
+            #nav-href{
+
+                width:155px;
+                top:30%;
+                color:rgb(136, 30, 30);
+                font-size:15pt;
+
+                position:fixed;
+                background:rgb(151, 18, 18);
+                z-index:300;
+                
+            }
+
+            #nav-href a{
+                line-height:50px;
+                width:94%;
+                float:left;
+                padding:3%;
+                text-align:center;
+                color:#fff;
+                text-decoration: none;
+            }
+
+            #nav-href a:hover{
+                
+                
+                    transition: 0.8s ease-in-out;
+                    background:rgb(90, 17, 17);
+                    cursor:pointer;
+                }
+
+         
+     
+
+                  /* 引言連結區塊end */
+
+         /* 引言區塊 end */
+
+         /* 每個區塊的主體大小 str */
+
+          #topic1,#topic2,#topic3,#topic4,#topic5{
+
+            margin:0 auto;
+            margin-bottom:200px;
+            width:1200px;
+            height:1100px;
+            background:#fff;
+            font-family: 'Kokoro', serif;
+          }
+
+          #topic-part1,  #topic-part2,  #topic-part3,  #topic-part4,  #topic-part5{
+
+            margin-top:50px;
+            padding:5%;
+            font-size:15pt;
+
+            
+          }
+
+          article{
+
+            width:200px;
+            height:200px;
+            background:url(img/production/bb.jpg);
+            margin:0 0 0 40%;
+            font-size:50pt;
+            color:#fff;
+            text-align:center;
+            line-height:100px;
+            border-radius:0.3em;
+         
+          }
+
+          img{
+
+            border:1px solid black;
+            padding:5px;
+          
+          }
+
+          pre{
+
+            font-family: 'Kokoro', serif;
+          }
+          
+         /* 每個區塊的主體大小 end */
+
+          /* 第一段 繪製原圖 str  */
+
+
+          #topic-part1-ul-650-rwd{
+
+            display:none;
+          }
+
+        #topic1{
+
+          height:1200px;
+        }
+
+          #topic-part1{
+           
+            padding:0 5% 5% 5%;
+            font-size:15pt;
+          }
+
+          #topic-part1 p{
+
+            padding:5%;
+            font-size:15pt;
+          }
+
+          #topic-part1-ul{
+
+            background: rgba(236, 236, 236, 0.952);
+           border-radius: 0.5em;
+
+          }
+
+          
+          #topic-part1 ul li::before{
+
+            content:"❀";
+            color:rgb(216, 35, 35);
+            margin-right:10px;
+           
+
+
+          }
+          #topic-part1 ul li{
+
+            margin:0 10%;
+            line-height: 50px;
+            list-style:none;
+          
+         
+            
+           
+          }
+
+          #topic-part1 img{
+              margin-left:7%;
+              margin-top:50px;
+          }
+
+
+         /* 第一段 繪製原圖 end  */
+
+
+
+          /* 第二段  雕刻墨板 str  */
+
+
+
+         #topic2{
+            
+        background:#FFF;
+        }
+        
+        #topic2 img{
+            margin-left:150px;
+            margin-top:100px;
+            width:70%;
+        }
+
+        #topic-part2-contain{
+
+            background: rgba(236, 236, 236, 0.952);
+            padding:2%;
+            margin-top:20px;
+            border-radius: 0.5em;
+        }
+
+     
+
+
+
+         /* 第二段  雕刻墨板 end  */
+
+         /* 第三段  選定色彩 str  */
+
+          #topic3{
+
+            background:#FFF;
+          }
+
+          #topic3 img{
+
+            width:70%;
+            margin-top:100px;
+            margin-left:80px;
+            float:left;
+          }
+
+          .topic3-1,.topic3-3{
+
+            display:none;
+
+
+          }
+
+  
+          .topic3-notes{
+
+            writing-mode:vertical-lr ;
+            margin-left:900px;
+            margin-top:-520px;
+            float:right;
+            height:400px;
+        }
+
+        .topic3-notes-650px-rwd{
+
+          display:none;
+        }
+
+
+
+
+         /* 第三段  選定色彩 end  */
+
+        /* 第四段  雕刻色彩 str  */
+          #topic4{
+
+            background: #FFF;
+            height:1200px;
+          }
+
+         
+         
+          #topic4 img{
+
+            width:800px;
+            margin-top:100px;
+            margin-left:100px;
+            border:0;
+
+        }
+        .topic4-1-notes{
+
+            margin-left:100px;
+            margin-top:20px;
+        }
+
+       
+
+
+        /* 第四段  雕刻色彩 end  */
+
+          /* 第五段  刷版 str  */
+
+          #topic5{
+
+            background:#FFF;
+           
+            }
+        
+                #topic5 img{
+                margin-top:-120px;    
+                margin-left:-300px;
+                width:150%;
+                border:0;
+                }
+
+              .topic5-1-notes{
+
+               margin-top:-600px;
+               margin-left:70px;
+               position:absolute ;
+               font-size:15pt;
+              
+            }
+
+
+            #topic5 article{
+
+                line-height:200px;
+            }
+
+
+
+          /* 第五段  刷版 str  */
+
+
+          /*-------------------- rwd------------------------- */
+
+
+        /* rwd 1320px str*/
+
+        @media screen and (max-width:1320px){
+          
+          
+                      #introduction{
+          
+                          height:500px;
+                          width:100%;
+                          margin:0 auto;
+                      }
+          
+                      #nav-href{
+          
+                          width:120px;
+                      }
+          
+                      #topic1,  #topic2, #topic3,  #topic4, #topic5{
+                          
+                          
+                      width:800px;
+                      height:1000px;
+                      background: #fff;
+                      margin:0 auto;
+                      margin-bottom:200px;
+                      font-size:15pt;
+                    
+              
+                                  }
+          
+                      #main-area{
+                          
+                      margin-top:100px;
+                      
+          
+          
+                      }
+          
+                      #main-area p{
+                          
+                      margin:0 auto;
+                     margin-left:100px;
+                      font-size:14pt;
+                      width:500px;
+                      
+                  }
+          
+                  article{
+                     width:150px;
+                     height:150px;
+                      margin-left:300px;
+                      font-size:35pt;
+                      line-height:70px;
+                  }
+
+                
+          
+          
+                 /* topic1 rwd 1320px str */
+
+                  #topic1{
+
+                    height:1100px;
+                  }
+
+                  #topic-part1{
+
+                    width:600px;
+                    margin-left:-30px;
+                   
+                  }
+                  #topic-part1 img{
+
+                    width:150px;
+                    margin-left:0;
+                    margin-top:50px;
+                }  
+                
+                 #topic-part1-pic-group{
+
+                  margin-left:103px;
+                 }
+      
+                  .topic1-1,  .topic1-2,  .topic1-3{
+
+                
+                    margin-left:30px;
+                   
+                  }
+
+             
+
+
+                  #topic-part1 ul{
+
+                    margin-left:120px;
+                    font-size:13pt;
+                  }
+
+                  .topic-part1-li{
+
+                    display:none;
+                  }
+
+           
+          
+                   
+          
+                  
+                  /* topic1 rwd 1320px end */
+          
+          
+                  /* topic2 rwd 1320px str */
+
+
+                  #topic-part2-contain{
+
+                    width:450px;
+                    margin-left:100px;
+                  
+                  }
+               
+                  #topic-part2 img{
+
+                    width:450px;
+                    margin-left:105px;
+                  }
+
+                  #topic-part2 pre{
+
+                    font-size:12pt;
+                    margin-left:-30px;
+                  }
+
+          
+                   
+                  /* topic2 rwd 1320px end */   
+          
+          
+                  /* topic3 rwd 1320px str */
+
+                  #topic3{
+
+                    height:850px;
+                  }
+
+                  #topic3 img{
+
+                    width:480px;
+                    margin-left:105px;
+                    margin-top:70px;
+                  }
+
+                  .topic3-notes{
+
+                    writing-mode:horizontal-tb; 
+                    margin-top:450px;
+                    margin-left:100px;
+                    font-size:12pt;
+                    position: absolute;
+
+                  
+                  }
+          
+          
+                  /* topic3 rwd 1320px end */
+          
+          
+          
+          
+                  /* topic4rwd 1320px str */
+
+                  #topic4{
+  
+                      height:850px;
+                    }
+  
+                    #topic4 img{
+  
+                      width:480px;
+                      margin-left:105px;
+                      margin-top:70px;
+                    }
+  
+                    .topic4-1-notes{
+  
+                      writing-mode:horizontal-tb; 
+                      margin-top:0px;
+                      margin-left:100px;
+                      font-size:12pt;
+  
+                    
+                    }
+
+                    /* topic4 rwd 1320px end */
+
+
+                    /* topic5 rwd 1320px str */
+                  
+          
+                    #topic5{
+    
+                        height:800px;
+                      }
+
+                      #topic5 article h1{
+
+                        line-height:150px;
+
+
+                      }
+    
+                      #topic5 img{
+    
+                        width:800px;
+                        margin-left:-20px;
+                        margin-top:-20px;
+                      }
+    
+                      .topic5-1-notes{
+    
+                        writing-mode:horizontal-tb; 
+                        margin-top:-270px;
+                        margin-left:140px;
+                        font-size:12pt;
+    
+                      
+                      }
+
+
+                      /* topic5 rwd 1320px end */
+          
+          /* rwd 1320px end*/
+          
+          
+          
+          
+          
+          /* rwd 650px  str */
+          
+              @media screen and (max-width:650px){
+          
+          
+                  #topic1, #topic2, #topic3,  #topic4, #topic5{
+                      
+          
+                      width:350px;
+                      height:1000px;
+                      background: #fff;
+                      margin:0 auto;
+                      margin-bottom:100px;
+                      font-size:13pt;
+                   
+                              }
+                      
+                      #introduction{
+                          
+                       height:300px;
+          
+                      }
+          
+          
+          
+                  #topic-part1 p,  #topic-part2 p,  #topic-part3 p,  #topic-part4 p,  #topic-part5 p{
+                      
+                      
+                    font-size:12pt;
+                    width:320px;
+                    margin:0 auto;
+                    margin-left:0px;
+          
+                  }
+                      
+                  #nav-href{
+          
+                      display:none;
+                  }
+          
+                  article{
+          
+                      margin-left:110px;
+                      width:120px;
+                      height:120px;
+                  }
+          
+                  article h1{
+          
+                    
+                     font-size:35pt;
+                    
+                     line-height:60px;
+                    
+                  }
+          
+                  /* topic1 rwd 650px str */
+
+
+                  #topic-part1-ul{
+                    
+                      display:none;
+                      
+                    }
+
+                  #topic-part1-ul-650-rwd{
+                    
+                    display:block;
+                    height:520px;
+                   line-height:50px;
+                  background: rgba(236, 236, 236, 0.952);
+                  border-radius:0.5em;
+                 
+                 
+                  }
+
+                  #topic-part1 ul li{
+
+                    line-height:30px;
+                    margin-left:3%;
+                  
+
+                  }
+          
+                  #topic1{
+                      
+                      margin-top:-200px;
+                      height:1200px;
+          
+                  }   
+          
+              
+
+                 #topic-part1 ul{
+
+                  width:320px;
+                  margin-left:27px;
+                  line-height:0px;
+
+                 
+                 }
+
+               #topic-part1-pic-group{
+
+                margin-left:25px;
+               }
+               .topic1-3 {
+
+               display:none;
+               }
+          
+            
+          
+                    /* topic1 rwd 650px end */
+          
+                  /* topic2 rwd 650px str */
+          
+                  #topic2{
+                      
+                      height:800px;
+                          }
+          
+          
+                  .topic2-1{
+          
+          
+                      width:320px;
+                      margin-top:50px;
+                      margin-left:15px;
+          
+                  }
+
+                  #topic-part2-contain{
+
+                    width:300px;
+                     margin-left:0px;
+                     font-size:13pt;
+                  }
+          
+                  .topic2-notes{
+          
+                     
+                      font-size:12pt;
+                      margin-left:-200px;
+                      
+                      }
+                #topic2 img{
+
+                  margin-left:0px;
+                  width:300px;
+                  margin-top:40px;
+                }
+
+                #topic2 pre{
+
+                  margin-left:-100px;
+                  font-size:12px;
+                }
+          
+          
+                  
+                  /* topic2 rwd 650px end */
+          
+                  /* topic3 rwd 650px str */
+          
+                  
+                  #topic3{
+                      
+                      height:850px;
+
+                          }
+          
+                 
+
+                  .topic3-pic-group{
+
+                    display:none;
+                  }
+
+                  .topic3-1,.topic3-3{
+                    
+                      display:block;
+                    }
+
+                    #topic3 img{
+
+                      width:300px;
+                      margin-left:0px;
+                    }
+          
+                  .topic3-notes{
+                    display:none;
+                  }
+
+                  .topic3-notes-650px-rwd{
+                    
+                        display:block;
+                        font-size:10pt;
+                      }
+                
+          
+          
+                  /* topic3 rwd 650px end */
+          
+          
+                  /* topic4 rwd 650px str */
+          
+                  
+          
+                   #topic4{
+          
+                    height:700px;
+                   }
+
+                   #topic4 img{
+
+                    width:300px;
+                    margin-left:0px;
+                   }
+             
+                      .topic4-1-notes{
+
+                        font-size:11pt;
+                        margin-left:10px;
+          
+                     }
+          
+                 
+          
+                  /* topic4 rwd 650px end */
+
+                  /* topic5 rwd 650px str */
+
+
+                  #topic5{
+                    
+                      height:580px;
+                      }
+  
+                      #topic5 img{
+  
+                      width:550px;
+                      margin-left:-100px;
+                      }
+                
+                        .topic5-1-notes{
+  
+                          font-size:11pt;
+                          margin-left:10px;
+                          margin-top:-190px;
+            
+                        }
+
+
+                  /* topic5 rwd 650px end */
+        
+          
+              
+          
+               /* rwd 650px  end */
+          
+                    }
+                  }
+
+   

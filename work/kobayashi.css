@@ -1,0 +1,389 @@
+@import url(//fonts.googleapis.com/earlyaccess/hannari.css);
+@import url(//fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+
+/* 全體區塊str */
+        *{
+
+            margin:0;
+            border:0;
+            padding:0;
+        }
+
+
+        body{
+
+        
+            background:url(img/background01.png);
+        }
+
+
+        #one-third,#two-third,#third{
+
+            width:650px;
+            height:200px;
+             margin:0 auto;
+        }
+
+
+        p{
+            text-align: center;
+            padding:3%;
+            margin-left:10%;
+    
+        }
+
+
+        h2{
+
+            text-align: center;
+            padding:3%;
+            margin-left:10%;
+       
+            font-family: 'cwTeXHei', sans-serif;
+            
+   
+        }
+
+        img{
+            
+                        border:10px solid #fff;
+                    }
+            
+
+
+/* 全體區塊end */
+
+
+
+
+/* 主體區塊str */
+
+  /* 作者簡介str */
+    #top-pic{
+
+        background: url(img/kobayashi/kobayashi-banner.png)center no-repeat;
+        background-size:contain;
+        height:450px;
+        margin-top:200px;
+        border:none;
+    
+
+
+    }
+
+    #top-background{
+
+        width:100%;
+        height:850px;
+        background:rgb(255, 255, 255);
+        opacity:0.7;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index:-1;
+
+    }
+
+    .first-paragraph p{
+
+    
+        width:700px;;
+        text-align:center;
+        margin:0 auto;
+        padding-top:50px;
+        font-family: 'Hannari', serif;
+    }
+
+     /* 作者簡介end */
+
+     /*  兩國橋 str */
+
+        #one-third{
+
+
+            margin-top:700px;
+
+        }
+
+        #one-third img{
+
+            width:700px;
+            margin:0 auto;
+            margin-top:-700px;
+            position: absolute;
+            z-index:-1;
+        }
+
+      
+
+     /*  兩國橋end */
+
+    /*  今戸橋茶亭的夜晚str */
+
+        #two-third{
+
+
+            margin-top:600px;
+
+            }
+
+            #two-third img{
+
+            width:700px;
+            margin:0 auto; 
+            margin-top:-700px; 
+            position: absolute;
+           z-index:-1;
+            }
+
+
+
+    /*  今戸橋茶亭的夜晚 end */
+
+    /* 貓與提燈  str */
+
+        #third{
+            
+            
+            margin-top:700px;
+
+            }
+
+        #third img{
+
+        width:700px;
+        margin:0 auto;
+       
+        margin-top:-800px;
+        
+        position: absolute;
+        z-index:-1;
+                    }
+        
+
+        /* 貓與提燈  end */
+
+
+
+
+/* 主體區塊end */
+
+/* ------------------rwd-------------- */
+
+
+/* rwd 800px str */
+
+@media screen and (max-width:800px){
+
+
+  
+
+    #top-background{
+
+        min-width:600px;
+    }
+
+
+
+
+    .first-paragraph p {
+
+        font-size:11pt;
+        width:500px;
+        margin-top:-50px;
+
+
+    }
+
+    #one-third img{
+
+        margin:0 auto;
+        max-width:600px;
+        position: absolute;
+        margin-top:-600px;
+       
+    }
+
+    #one-third  h2{
+
+        margin-top:-200px;
+        margin-left:38%;
+        position: absolute;
+    }
+
+    #one-third p{
+
+        margin-top:-120px;
+        width:500px;
+        margin-left:5%;
+       
+        position: absolute;
+        
+    }
+
+    #two-third img{
+        
+        margin:0 auto;
+        max-width:600px;
+        position: absolute;
+        margin-top:-700px;
+        
+    }
+
+    #two-third  h2{
+        
+        margin-top:-280px;
+        margin-left:30%;
+        position: absolute;
+    }
+
+    #two-third p{
+
+        margin-top:-200px;
+        margin-left:5%;
+        width:500px;
+        position: absolute;
+        
+    }
+
+
+    #third img{
+        
+        margin:0 auto;
+        max-width:600px;
+        position: absolute;
+        margin-top:-850px;
+        
+    }
+
+    #third  h2{
+        
+        margin-top:-370px;
+        margin-left:35%;
+        position: absolute;
+    }
+
+    #third p{
+
+        margin-top:-280px;
+        margin-left:5%;
+        width:500px;
+        position: absolute;
+        
+    }
+
+
+}
+
+
+/* rwd 650px str */
+
+
+@media screen and (max-width:650px){
+
+
+    #one-third img ,#two-third img, #third img{
+          
+        
+        max-width:350px;
+        border:5px solid #fff;
+        margin-left:5%;
+           
+          
+    
+        }
+
+        #top-background{
+
+       
+        }
+
+        #first-paragraph-p{
+            
+                        width:300px;
+                      padding:0;
+                    }
+     
+
+        #top-pic{
+
+            max-width:400px;
+           
+        }
+
+        
+
+        #one-third p ,#two-third p, #third p{
+
+            max-width:400px;
+        }
+
+        #one-third p{
+
+            margin-top:-250px;
+            width:350px;
+           
+        }
+
+        #one-third h2{
+
+            margin-top:-320px;
+        margin-left:40%;
+        }
+
+
+
+        #two-third h2{
+
+            margin-top:-400px;
+            
+            }
+
+            #two-third img{
+
+                margin-top:-800px;
+            }
+
+            #two-third  h2{
+
+                margin-top:-500px;
+                margin-left:23%;
+            }
+
+            #two-third p{
+
+                margin-top:-400px; 
+                width:350px;
+
+
+            }
+          
+            #third img{
+
+                margin-top:-1100px;
+            }
+
+            #third h2{
+
+                margin-top:-780px; 
+            }
+
+            #third p{
+
+                margin-top:-700px; 
+                width:350px;
+          
+              
+
+
+            }
+
+
+
+
+    }
+
+
+
+/* rwd 650px end */
