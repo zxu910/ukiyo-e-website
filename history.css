@@ -526,7 +526,7 @@
         #topic1{
             
             margin-top:-200px;
-            height:1300px;
+            height:1350px;
 
         }   
         
@@ -568,7 +568,8 @@
 
         #topic2{
             
-            height:1100px;
+            height:1150px;
+         
                 }
 
 
@@ -600,7 +601,8 @@
         
         #topic3{
             
-            height:950px;
+            height:1050px;
+           
                 }
 
         .topic3{
@@ -614,6 +616,7 @@
         
         font-size:12pt;
         margin-left:-200px;
+      
         
         }
             
@@ -628,7 +631,8 @@
 
          #topic4{
 
-          height:1100px;
+          height:1150px;
+        
          }
         .topic4-1{
             
@@ -658,6 +662,7 @@
             display:block;
             font-size:11pt;
             margin-left:-190px;
+           
           }
 
         /* topic4 rwd 650px end */
