@@ -26,14 +26,14 @@
 
         #one-third,#two-third,#third{
 
-            width:650px;
+        
             height:200px;
              margin:0 auto;
         }
 
        p{
             text-align: center;
-            padding:3%;
+        
             margin-left:40px;
 
     
@@ -43,10 +43,9 @@
 
         h2{
 
-            text-align: center;
-            padding:3%;
-            margin-left:40px;
+           
             font-family: 'cwTeXHei', sans-serif;
+          
             
    
         }
@@ -88,14 +87,14 @@
         width:100%;
         height:850px;
         background:rgb(255, 255, 255);
-        opacity:0.7;
+       
         position: absolute;
         top:0;
         left:0;
         z-index:-1;
 
     }
-
+  
 
     .first-paragraph p{
 
@@ -114,42 +113,92 @@
         #one-third{
 
 
-            margin-top:700px;
-
+            margin-top:200px;
         }
+
 
         #one-third img{
+            
+        width:700px;
+        margin:0 auto; 
+        margin-top:200px;
+        z-index:-1;
+        border:10px solid #fff;
+        display:block;
+            
+        } 
+            
 
-            width:700px;
-            margin:0 auto;
-            margin-top:-730px;
-            position: absolute;
-            z-index:-1;
-            border:10px solid #fff;
+        #one-third h2{
+        
+        margin:0 auto;
+        margin-top:70px;
+        text-align:center;
+        display:block;
+
+      
         }
 
+        #one-third p{
+            
+        width:700px;;
+        text-align:center;
+        margin:0 auto;
+        margin-top:50px;
+    
+        
+    }
+
+
+     
       
 
      /* 神奈川沖浪裏end */
 
     /* 赤富士str */
 
-        #two-third{
+
+    #two-third{
+
+        margin-top:700px;
+        height:800px;
+        background: rgb(255, 255, 255);
+    }
 
 
-            margin-top:700px;
 
-            }
+    #two-third img{
+        
+    width:700px;
+    margin:0 auto; 
+    margin-top:200px;
+    z-index:-1;
+    padding-top:50px;
+   
+    display:block;
+        
+    } 
+        
 
-            #two-third img{
+    #two-third h2{
+    
+    margin:0 auto;
+    margin-top:70px;
+    text-align:center;
+    display:block;
 
-            width:700px;
-            margin:0 auto; 
-            margin-top:-700px; 
-            position: absolute;
-           z-index:-1;
-           border:10px solid #fff;
-            }
+  
+    }
+
+    #two-third p{
+        
+    width:700px;;
+    text-align:center;
+    margin:0 auto;
+    margin-top:50px;
+
+    
+}
 
 
 
@@ -157,31 +206,45 @@
 
     /* 鷽與垂櫻  str */
 
-        #third{
-            
-            
-            margin-top:800px;
-            margin-bottom:100px;
-
-            }
-
-            #third p , #third h2{
-
-                margin-left:0px;
-            }
-
-        #third img{
-
-        width:400px;
-        margin:0 auto;
-        margin-left:120px;
-        margin-top:-800px;  
-        position: absolute;
-        z-index:-1;
-        border:10px solid #fff;
-      
-                    }
+    #third{
         
+        margin-top:200px;
+      
+    }
+
+    #third img{
+        
+    width:400px;
+    margin:0 auto; 
+    margin-top:200px;
+    z-index:-1;
+    border:10px solid #fff;
+    display:block;
+        
+    } 
+        
+
+    #third h2{
+    
+    margin:0 auto;
+    margin-top:70px;
+    text-align:center;
+    display:block;
+
+    
+    }
+
+    #third p{
+        
+    width:700px;;
+    text-align:center;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:200px;
+
+
+    
+        }
 
         /* 鷽與垂櫻  end */
 
@@ -199,231 +262,112 @@
 /* rwd 800px str */
 
 @media screen and (max-width:800px){
-    
-    
-      
-    
-        #top-background{
-    
-            min-width:600px;
-        }
-    
-    
-    
-    
-        .first-paragraph p {
-    
-            font-size:11pt;
-            width:500px;
-            margin-top:-50px;
-    
-    
-        }
-    
-        #one-third img{
-    
-            margin:0 auto;
-            max-width:450px;
-            position: absolute;
-            margin-top:-600px;
-            margin-left:15%;
-           
-        }
-    
-        #one-third  h2{
-    
-            margin-top:-200px;
-            margin-left:35%;
-            position: absolute;
-        }
-    
-        #one-third p{
-    
-            margin-top:-120px;
-            width:500px;
-            margin-left:5%;
-            position: absolute;
-            
-        }
-    
-        #two-third img{
-            
-            margin:0 auto;
-            max-width:450px;
-            position: absolute;
-            margin-top:-800px;
-            margin-left:15%;
-        }
-    
-        #two-third  h2{
-            
-            margin-top:-400px;
-            margin-left:32%;
-            position: absolute;
-        }
-    
-        #two-third p{
-    
-            margin-top:-300px;
-            margin-left:5%;
-            width:500px;
-            position: absolute;
-            
-        }
-    
-    
-        #third img{
-            
-            margin:0 auto;
-            max-width:330px;
-            position: absolute;
-            margin-top:-1100px;
-            margin-left:20%;
-            
-        }
-    
-        #third  h2{
-            
-            margin-top:-560px;
-            margin-left:35%;
-            position: absolute;
-        }
-    
-        #third p{
-    
-            margin-top:-450px;
-            margin-left:5%;
-            width:500px;
-            position: absolute;
-            
-        }
-    
-    
+
+
+    #one-third img, #two-third img{
+
+        width:500px;
     }
+    #one-third p, #two-third p, #third p{
+
+        width:500px;
+    }
+
+    #first-paragraph-p{
+
+        width:500px;
+        margin-top:-50px;
+    }
+
+    #one-third{
+
+        margin-top:-100px;
+       
+    }
+    #two-third{
+        
+        margin-top:550px;
+        height:700px;
+      
+    }
+
+    #third img{
+
+        width:350px;
+
+
+    }
+
+
+
+}
     
     
+  
     /* rwd 650px str */
     
     
     @media screen and (max-width:650px){
 
+        #one-third img, #two-third img{
+            
+                    width:350px;
+                    border:3px solid #fff;
+                }
+        #one-third p, #two-third p, #third p{
+            
+                    width:300px;
+                    margin-tOP:30px;
+                }
+        #one-third h2, #two-third h2, #third h2{
 
-        body{
-
-            width:400px;
-      
-           
+            font-size:15pt;
+            margin-top:30px;
         }
 
-    
+        #top-pic{
+            
+                margin-tOP:95px;;
+            }
 
         #top-background{
 
-            width:100px;
-        }
-
+            height:700px;
+                        }
         #first-paragraph-p{
+            
+                    width:350px;
+                    margin-tOP:-100px;
+                    font-size:10pt;
+                }
+        #third img{
 
-            width:300px;
-          padding:0;
+            width:280px;
+            border:3px solid #fff;
+
+
         }
-    
-        #one-third img ,#two-third img, #third img{
-              
+
+        #two-third{
+
+            margin-top:350px;
+            height:600px;
+        }
+
+     
+        #third{
             
-                 max-width:250px;
-                border:5px solid #fff;
-             
-        
-            }
-    
-            .first-paragraph p {
-                
-                        font-size:11pt;
-                        width:370px;
-                        margin-top:-70px;
-                        margin-left:12%;
-                
-                
-                    }
-         
-    
-            #top-pic{
-    
-                max-width:400px;
-                margin-left:10%;
-            }
-    
-            
-    
-            #one-third p ,#two-third p, #third p{
-    
-                max-width:400px;
-            }
-    
-            #one-third p{
-    
-                margin-top:-250px;
-                width:350px;
-               
-            }
-    
-            #one-third h2{
-    
-                margin-top:-350px;
-          
-            }
-    
-    
-    
-            #two-third h2{
-    
-                margin-top:-400px;
-                
-                }
-    
-                #two-third img{
-    
-                    margin-top:-900px;
-                  
-                }
-    
-                #two-third  h2{
-    
-                    margin-top:-650px;
-                    margin-left:28%;
-                }
-    
-                #two-third p{
-    
-                    margin-top:-550px;
-                    width:350px;
-    
-    
-                }
-              
-                #third img{
-    
-                    margin-top:-1300px;
-                   
-                }
-    
-                #third h2{
-    
-                    margin-top:-900px; 
-                }
-    
-                #third p{
-    
-                    margin-top:-800px; 
-                    width:350px;
-              
-                  
-    
-    
-                }
-    
-    
-    
+            margin-top:-100px;
+        }
+
+
+      
+
+
+
+
+
+
+
     
         }
