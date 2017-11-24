@@ -1,0 +1,28 @@
+
+
+1.複製slider.jquery資料夾到專案中
+
+
+2.在目標頁面坎入iframe  
+   EX:  <iframe  id="自己取"  src="slider.jquery/with-jquery.html" frameborder=""></iframe>
+
+
+3.把想呈現的圖片放入slider.jquery 的 img 資料夾
+
+
+4.到with-jquery.html裡調整：
+
+     $SlideDuration:頁面捲動時間
+
+      var MAX_WIDTH =1400;(頁面大小)
+
+       <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1400px;height:680px;overflow:hidden;">
+        (單張圖片調整)
+
+        最重要的 在最下方img src部分填入想放入的圖片名稱
+
+5.完成
+
+
+   
+

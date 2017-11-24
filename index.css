@@ -85,9 +85,11 @@
 
    
        #main-container p{
-       padding : 5% 32%;
-       margin-top:10px;
-       width:50%;
+   
+       margin-top:150px;
+       margin-left:100px;
+       
+       height:300px;
        color:#fff;
        font-size:17pt;
        position:absolute;
