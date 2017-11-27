@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 $('#start').fadeOut(1500);
 
-$("#navi").show(),
+
 $('#rwd-hamberger').click(function(){
 
     $('#navi').slideToggle();
